@@ -4,6 +4,9 @@
 
 This is a React-based retirement planning application that helps users visualise their pension pot growth and retirement income projections. It’s essentially a financial planning tool for retirement.
 
+![Retirement Planning Calculator Screenshot](Screenshot.png)
+
+
 ## Running the App
 
 This application has been built using Vite. You can simply:
