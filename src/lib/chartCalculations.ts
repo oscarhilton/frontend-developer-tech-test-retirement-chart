@@ -61,7 +61,7 @@ export function getDecumulationData(
     currentPot -= monthlyIncomeDraw;
     currentPot = Math.max(0, currentPot);
 
-    const isFullYear = monthsIntoRetirement % 12 === 0;
+    const isFullYear = monthsIntoRetirement % Config.MONTHS_PER_YEAR === 0;
     if (isFullYear) {
       result.push({
         x: currentAge,
